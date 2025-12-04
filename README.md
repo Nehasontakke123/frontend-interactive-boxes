@@ -19,5 +19,5 @@ This project is created as part of the Frontend Technical Support assessment.
 ## How to Run
 Open `index.html` in any browser.
 
-## Live Demo
-(Your Netlify or GitHub Pages link will go here)
+## Live Demo Netlify
+https://frontend-interactive-boxes.netlify.app/
