@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Product Selector</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Title Section -->
+        <div class="title-section">
+            <div class="title-line"></div>
+            <h1 class="title">YAY! It's BOGO</h1>
+            <div class="title-line"></div>
+        </div>
+
+        <!-- Product Options -->
+        <div class="product-options">
+            <!-- 1 Unit Option -->
+            <div class="product-box expandable" data-unit="1" data-price="10.00">
+                <div class="box-header">
+                    <div class="radio-wrapper">
+                        <input type="radio" name="product" id="unit-1" value="1" checked>
+                        <label for="unit-1" class="radio-label"></label>
+                    </div>
+                    <div class="box-content">
+                        <div class="box-title-row">
+                            <span class="box-title">1 Unit</span>
+                            <span class="discount-badge">10% Off</span>
+                        </div>
+                        <p class="box-description">Standard Price</p>
+                    </div>
+                    <div class="box-price">
+                        <div class="current-price">$10.00 USD</div>
+                        <div class="old-price">$24.00 USD</div>
+                    </div>
+                </div>
+                <!-- Expandable Content -->
+                <div class="expandable-content">
+                    <div class="customization-section">
+                        <div class="customization-row">
+                            <div class="item-label">#1 Item</div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Size</label>
+                                <select class="custom-dropdown" data-item="1" data-type="size" data-unit="1">
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Colour</label>
+                                <select class="custom-dropdown" data-item="1" data-type="colour" data-unit="1">
+                                    <option value="Black" selected>Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 Unit Option (Expandable) -->
+            <div class="product-box expandable" data-unit="2" data-price="18.00">
+                <div class="most-popular-badge">MOST POPULAR</div>
+                <div class="box-header">
+                    <div class="radio-wrapper">
+                        <input type="radio" name="product" id="unit-2" value="2">
+                        <label for="unit-2" class="radio-label"></label>
+                    </div>
+                    <div class="box-content">
+                        <div class="box-title-row">
+                            <span class="box-title">2 Unit</span>
+                            <span class="discount-badge">20% Off</span>
+                        </div>
+                    </div>
+                    <div class="box-price">
+                        <div class="current-price">$18.00 USD</div>
+                        <div class="old-price">$24.00 USD</div>
+                    </div>
+                </div>
+                <!-- Expandable Content -->
+                <div class="expandable-content">
+                    <div class="customization-section">
+                        <div class="customization-row">
+                            <div class="item-label">#1 Item</div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Size</label>
+                                <select class="custom-dropdown" data-item="1" data-type="size" data-unit="2">
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Colour</label>
+                                <select class="custom-dropdown" data-item="1" data-type="colour" data-unit="2">
+                                    <option value="Black" selected>Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="customization-row">
+                            <div class="item-label">#2 Item</div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Size</label>
+                                <select class="custom-dropdown" data-item="2" data-type="size" data-unit="2">
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Colour</label>
+                                <select class="custom-dropdown" data-item="2" data-type="colour" data-unit="2">
+                                    <option value="Colour" selected>Colour</option>
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 Unit Option -->
+            <div class="product-box expandable" data-unit="3" data-price="24.00">
+                <div class="box-header">
+                    <div class="radio-wrapper">
+                        <input type="radio" name="product" id="unit-3" value="3">
+                        <label for="unit-3" class="radio-label"></label>
+                    </div>
+                    <div class="box-content">
+                        <div class="box-title-row">
+                            <span class="box-title">3 Unit</span>
+                            <span class="discount-badge">30% Off</span>
+                        </div>
+                    </div>
+                    <div class="box-price">
+                        <div class="current-price">$24.00 USD</div>
+                        <div class="old-price">$24.00 USD</div>
+                    </div>
+                </div>
+                <!-- Expandable Content -->
+                <div class="expandable-content">
+                    <div class="customization-section">
+                        <div class="customization-row">
+                            <div class="item-label">#1 Item</div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Size</label>
+                                <select class="custom-dropdown" data-item="1" data-type="size" data-unit="3">
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Colour</label>
+                                <select class="custom-dropdown" data-item="1" data-type="colour" data-unit="3">
+                                    <option value="Black" selected>Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="customization-row">
+                            <div class="item-label">#2 Item</div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Size</label>
+                                <select class="custom-dropdown" data-item="2" data-type="size" data-unit="3">
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Colour</label>
+                                <select class="custom-dropdown" data-item="2" data-type="colour" data-unit="3">
+                                    <option value="Colour" selected>Colour</option>
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="customization-row">
+                            <div class="item-label">#3 Item</div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Size</label>
+                                <select class="custom-dropdown" data-item="3" data-type="size" data-unit="3">
+                                    <option value="S" selected>S</option>
+                                    <option value="M">M</option>
+                                    <option value="L">L</option>
+                                </select>
+                            </div>
+                            <div class="dropdown-group">
+                                <label class="dropdown-label">Colour</label>
+                                <select class="custom-dropdown" data-item="3" data-type="colour" data-unit="3">
+                                    <option value="Colour" selected>Colour</option>
+                                    <option value="Black">Black</option>
+                                    <option value="White">White</option>
+                                    <option value="Red">Red</option>
+                                    <option value="Blue">Blue</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Price Summary Section -->
+        <div class="summary-section">
+            <div class="free-delivery">Free Delivery</div>
+            <div class="total-price">Total : <span id="total-amount">$10.00</span> USD</div>
+        </div>
+
+        <!-- Add to Cart Button -->
+        <button class="add-to-cart-btn">
+            <span class="plus-icon">+</span>
+            Add to Cart
+        </button>
+
+        <!-- Footer -->
+        <div class="footer">@ Powered by Pumper</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
